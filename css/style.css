@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.glavnaTabela {
+	width: 100%;
+}
+.glavnaTabela,
+.glavnaTabela th,
+.glavnaTabela td {
+	height: 40px;
+	border-collapse: collaps;
+}
+.glavnaTabela tr:nth-child(odd) {
+	background-color: grey;
+}
+.glavnaTabela th {
+	background-color: black;
+	color: white;
+}
+.glavnaTabela th:hover {
+	background-color: yellow;
+}
+.glavnaTabela tr {
+	text-align: left;
+}
+.glavnaTabela td {
+	padding-left: 10px;
+}
+.marka {
+	text-align: center;
+}
+
+@media only screen and (max-width: 640px) {
+	.glavnaTabela tr {
+		text-align: center;
+	}
+	.glavnaTabela td {
+		padding-left: 0px;
+	}
+}
